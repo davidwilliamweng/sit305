@@ -1,0 +1,136 @@
+<resources>
+
+    <string name="app_name">Calendar Alarm</string>
+
+    <string name="content_descriptions_set_alarm_icon">Set alarm icon</string>
+
+    <!-- SLEEP QUALITY STATES-->
+    <string name="sleep_state_unhealthy">Unhealthy</string>
+    <string name="sleep_state_optimal">Optimal</string>
+    <string name="sleep_state_healthy">Healthy</string>
+    <string name="sleep_state_notrecommended">Not recommended</string>
+
+    <!-- TABS STRINGS -->
+    <string name="sleep_now_tab">Alarm</string>
+    <string name="wake_up_at_tab">Calendar</string>
+
+    <!-- CARD INFO STRINGS -->
+    <string name="sleep_now_card_info_title">Going to set an alarm right now?</string>
+    <string name="sleep_now_card_info_summary">Click the add alarm button to set an alarm clock. Try it~</string>
+    <string name="calendar_card_info_title">Going to set up a calendar alarm clock?</string>
+    <string name="calendar_card_info_summary">Select a date and click the add alarm button to set an alarm clock. Try it~</string>
+
+    <string name="activity_alarm_hint">Tap anywhere to dismiss alarm</string>
+
+    <!-- BUTTON STRINGS -->
+    <string name="wake_up_at_set_hour_button">Add Alarm</string>
+
+    <!-- LIST STRINGS -->
+    <string name="global_hour_mark">h</string>
+    <string name="global_minute_mark">min</string>
+    <string name="list_element_title_changeable">%1$d:%2$d</string>
+    <string name="list_element_summary_changeable">%1$s of sleep | %2$s</string>
+    <string name="wake_up_at_empty_list_title">Wake up on time!</string>
+    <string name="wake_up_at_empty_list_summary">Tap the \'Set hour\' button to pick a specific hour at which you want to wake up. I will create a list of hours you should fall asleep at.</string>
+    <string name="alarms_empty_list_title">Keep an eye on your alarms!</string>
+    <string name="alarms_empty_list_summary">Don\'t worry I won\'t eat them… I just remove already launched alarms, and those active - I store them safely here.</string>
+
+    <!-- MENU STRINGS -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- DIALOG STRINGS -->
+    <string name="edit_alarm">Edit alarm</string>
+
+    <!-- TOAST STRINGS -->
+    <string name="toast_double_back_to_exit">Press once again to exit</string>
+
+    <!-- PREFERENCE STRINGS -->
+
+    <!-- NEW CATEGORY -->
+    <string name="pref_theme_category">Theme</string>
+
+    <string name="pref_change_theme_title">Night mode schedule</string>
+    <string-array name="pref_change_theme_titles">
+        <item>Never</item>
+        <item>Auto (Depends on time)</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_change_theme_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- NEW CATEGORY -->
+
+    <!-- NEW CATEGORY -->
+
+    <string name="pref_alarm_category">Alarm</string>
+
+    <string name="pref_alarm_vibrate_when_ringing_title">Phone vibration</string>
+    <string name="pref_alarm_vibrate_when_ringing_summary">Vibrate when alarm rings</string>
+
+    <string name="pref_alarms_have_same_ringtone_switch_title">Alarms have the same ringtone</string>
+    <string name="pref_alarms_have_same_ringtone_switch_summary">Avoid configuring ringtone for every single alarm.</string>
+    <string name="pref_ringtone_select_title">Alarm ringtone</string>
+    <string name="pref_ringtone_select_default_summary">Tap to select ringtone</string>
+    <string name="pref_ringtone_select_selected_summary">Chosen ringtone: %s</string>
+
+    <string name="pref_ring_duration_title">Ring duration</string>
+    <string-array name="pref_ring_duration_titles">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="pref_ring_duration_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1500000</item>
+        <item>1800000</item>
+    </string-array>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string-array name="english_week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="add_label_hint">Add a label!</string>
+    <string name="days">Days</string>
+    <string name="add_alarm">Add alarm</string>
+    <string name="add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="empty_list_image">Empty list image</string>
+    <string name="dialog_alarm_description">Alarm will ring at %1$s, which gives you %2$s type of rest</string>
+    <string name="alarm_ringtone">Alarm ringtone</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="wakeupat_view_description">To wake up at %1$s fully rested you should fall asleep at one of the listed hours below.</string>
+    <string name="tap_to_set_alarm">Tap to set alarm</string>
+    <string name="tap_to_edit_press_and_hold_to_delete">Tap to edit, press and hold to delete</string>
+
+</resources>

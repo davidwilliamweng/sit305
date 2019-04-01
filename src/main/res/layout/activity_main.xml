@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/main_activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/navigation_bar_selector"
+        app:itemTextColor="@color/navigation_bar_selector"
+        app:labelVisibilityMode="selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <LinearLayout
+        android:id="@+id/addAlarmBtn"
+        android:layout_width="@dimen/fabWidth"
+        android:layout_height="@dimen/fabHeight"
+        android:paddingStart="@dimen/marginItemsInSectionSmall"
+        android:paddingEnd="@dimen/marginItemsInSectionSmall"
+        android:layout_marginBottom="@dimen/marginItemsInSectionLargest"
+        android:layout_marginTop="@dimen/marginItemsInSectionSmall"
+        android:background="@drawable/button_fab_extended_drawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:elevation="1dp">
+        <View
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/add"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wake_up_at_set_hour_button"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto"
+            android:textSize="@dimen/textBody2"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

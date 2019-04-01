@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/cancel"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/colorBlack70"/>
+        <TextView
+            android:id="@+id/tvSave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/action_save"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/marginItemsInSectionSmall"
+            android:paddingBottom="@dimen/marginItemsInSectionSmall"
+            android:paddingLeft="@dimen/marginItemsInSectionSmall"
+            android:paddingRight="@dimen/marginItemsInSectionSmall">
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/marginItemsInSectionSmall"
+                android:timePickerMode="spinner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/label"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                android:background="@drawable/divider" />
+
+            <EditText
+                android:id="@+id/etLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:maxLength="15"
+                android:textSize="@dimen/textOverline"
+                android:textColor="@color/secondary_text"
+                android:fontFamily="@font/roboto"
+                android:hint="@string/add_label_hint"
+                android:layout_marginBottom="@dimen/marginItemsInSectionSmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/days"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                android:background="@drawable/divider" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/monday"/>
+
+                <CheckBox
+                    android:id="@+id/cbMon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/tuesday" />
+
+                <CheckBox
+                    android:id="@+id/cbTues"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/wednesday" />
+
+                <CheckBox
+                    android:id="@+id/cbWed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/thursday" />
+
+                <CheckBox
+                    android:id="@+id/cbThurs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/friday" />
+
+                <CheckBox
+                    android:id="@+id/cbFri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/saturday" />
+
+                <CheckBox
+                    android:id="@+id/cbSat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/sunday" />
+
+                <CheckBox
+                    android:id="@+id/cbSun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBetweenTextHorizontal"
+                    android:layout_gravity="center_vertical"/>
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/tvDel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/button_del"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Delete"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textBody1"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
