@@ -1,19 +1,18 @@
 
-# Henry notes
+# Week 4
+## Henry notes
 - Missing progress recently. 
 - This file must be updated each day you work. Please update (you can remove this message once done)
 
-working on process, just need more time to fix the bugs
+## date???
+
+### who???
+- working on process, just need more time to fix the bugs
+
+# Week 5
+
+## Week 5, Wednesday 3/April [Henry]
+- This project needs more work to meet the pass hurdle.
+- Include multi-line comments (/* */) before each function, to outline what the function does, any arguments and return types, and how to use it.
 
 
-jacoco-android related deleted
-
-calendar_alarm class:   
-                      
-                      ‘com.dicedmelon.gradle:jacoco-android:0.1.1' deleted
-                      'org.codehaus.groovy:groovy-all:2.4.12' deleted
-                      use
-                      dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
-        classpath "io.realm:realm-gradle-plugin:5.7.0"
-        } instead.
