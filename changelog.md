@@ -16,7 +16,15 @@ uploaded half of process but removed.
 
 # Week 6 
 
-## Week 6
-- Adding more functions in. More music choices. 
+## date????
+- Adding more functions in. More music choices. [WHO?]
+
+## Monday, 8/April [Henry]
+- I do NOT understand your code structure. There's a directory (week4) that's outside your src/ directory. How is this to run?
+--- Explain everything in your readme on how to run this code, and all directory structures for the source code of the app
+- Not enough updates to pass. At this stage, you have not been meeting the minimum work (two days per week) to pass.
+- If you are going to withdraw from the unit, please do so ASAP. It is unlikely you can pass anymore.
+
+
 
 
