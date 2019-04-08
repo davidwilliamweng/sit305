@@ -1,2 +1,0 @@
-week 3 : interface and half of coding created
-week 4- week 5: alarm and calendar function is finished
