@@ -16,9 +16,8 @@ uploaded half of process but removed.
 
 # Week 6 
 
-## date????
-- Adding more functions in. More music choices. [WHO?]
-
+## date 4/9 David
+- Adding more functions in. More music choices. 
 ## Monday, 8/April [Henry]
 - I do NOT understand your code structure. There's a directory (week4) that's outside your src/ directory. How is this to run?
 --- Explain everything in your readme on how to run this code, and all directory structures for the source code of the app
