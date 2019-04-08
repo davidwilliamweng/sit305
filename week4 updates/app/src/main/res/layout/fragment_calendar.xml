@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/paddingLayout">
+
+    <com.haibin.calendarview.CalendarLayout
+        android:id="@+id/calendarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:default_status="shrink">
+
+        <com.haibin.calendarview.CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:month_view="com.david.calendaralarm.tabs.ui.SimpleMonthView"
+            app:week_view="com.david.calendaralarm.tabs.ui.SimpleWeekView"
+            app:week_bar_view="com.david.calendaralarm.tabs.ui.EnglishWeekBar"
+            app:current_month_text_color="#333333"
+            app:current_month_lunar_text_color="#CFCFCF"
+            app:min_year="2004"
+            app:other_month_text_color="#e1e1e1"
+            app:selected_text_color="#ffffff"
+            app:selected_theme_color="#333333"
+            app:week_start_with="mon"
+            app:week_background="#ffffff"
+            app:month_view_show_mode="mode_only_current"
+            app:week_text_color="#111111"
+            app:calendar_show_mode="both_month_week_view"/>
+    </com.haibin.calendarview.CalendarLayout>
+
+</LinearLayout>

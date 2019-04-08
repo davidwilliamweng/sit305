@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="@string/menu_settings">
+
+    <PreferenceCategory
+        android:key="@string/pref_theme_category"
+        android:title="@string/pref_theme_category">
+
+        <ListPreference
+            android:summary="%s"
+            android:defaultValue="1"
+            android:entries="@array/pref_change_theme_titles"
+            android:entryValues="@array/pref_change_theme_values"
+            android:key="@string/key_change_theme"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_change_theme_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_alarm_category"
+        android:title="@string/pref_alarm_category">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_alarms_has_same_ringtone"
+            android:summary="@string/pref_alarms_have_same_ringtone_switch_summary"
+            android:title="@string/pref_alarms_have_same_ringtone_switch_title" />
+
+        <RingtonePreference
+            android:dependency="@string/key_alarms_has_same_ringtone"
+            android:key="@string/key_ringtone_select"
+            android:persistent="true"
+            android:ringtoneType="alarm"
+            android:showDefault="true"
+            android:showSilent="false"
+            android:summary="@string/pref_ringtone_select_default_summary"
+            android:title="@string/pref_ringtone_select_title"
+            app:pref_showAdd="true"
+            app:pref_summaryHasRingtone="@string/pref_ringtone_select_selected_summary" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_alarm_vibrate_when_ringing"
+            android:summary="@string/pref_alarm_vibrate_when_ringing_title"
+            android:title="@string/pref_alarm_vibrate_when_ringing_summary" />
+
+
+        <ListPreference
+            android:summary="%s"
+            android:defaultValue="300000"
+            android:entries="@array/pref_ring_duration_titles"
+            android:entryValues="@array/pref_ring_duration_values"
+            android:key="@string/key_ring_duration"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_ring_duration_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
