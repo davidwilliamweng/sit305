@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionAlarm"
+        android:icon="@drawable/ic_bottom_navigation_sleepnow"
+        android:title="@string/sleep_now_tab"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionCalendar"
+        android:icon="@drawable/ic_bottom_navigation_wakeupat"
+        android:title="@string/wake_up_at_tab"
+        app:showAsAction="ifRoom" />
+
+</menu>

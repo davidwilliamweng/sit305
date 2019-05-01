@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDialogBackground"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/paddingLayout"
+    android:paddingBottom="@dimen/marginBottomForDialog">
+
+        <TextView
+            android:id="@+id/tv_dialog_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pref_ringtone_select_default_summary"
+            android:textSize="@dimen/textBody1"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/colorTextPrimary" />
+
+        <include layout="@layout/item_alarm"
+            android:id="@+id/i_dialog_item_ringtone"
+            android:layout_marginTop="@dimen/marginItemsInSectionLarge"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+</LinearLayout>

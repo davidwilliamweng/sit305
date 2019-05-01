@@ -1,0 +1,64 @@
+<resources>
+
+    <!--
+    <style name="Theme.SleepCycleAlarm" parent="PreferenceFixTheme.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>-->
+
+    <style name="Theme.SleepCycleAlarm" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="Theme.SleepCycleAlarm.InfoCard">
+        <item name="cardCornerRadius">@dimen/cornerRadiusSize</item>
+        <item name="cardElevation">@dimen/elevationSize</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="contentPadding">@dimen/contentPaddingInfoBoard</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.SleepCycleAlarm.InfoCard2">
+        <item name="cardCornerRadius">@dimen/cornerRadiusSize</item>
+        <item name="cardElevation">@dimen/elevationSize</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="contentPadding">@dimen/contentPaddingInfoBoard</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cardBackgroundColor">@color/colorAccent2</item>
+    </style>
+
+    <style name="Theme.SleepCycleAlarm.FloatingActionButton" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">@dimen/fabWidth</item>
+        <item name="android:layout_height">@dimen/fabHeight</item>
+        <item name="android:background">@drawable/button_fab_extended</item>
+        <item name="android:drawableStart">@drawable/ic_add</item>
+        <item name="android:textColor">@color/colorIconsActiveFocusedNegative</item>
+    </style>
+
+    <style name="Theme.SleepCycleAlarm.FloatingActionButton.NoBackground" parent="Theme.SleepCycleAlarm.FloatingActionButton">
+        <item name="android:background">@drawable/button_fab_extended_no_background</item>
+        <item name="android:drawableStart">@null</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.SleepCycleAlarm.Dialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/colorDialogBackground</item>
+        <item name="android:buttonBarStyle">@style/MyButtonBar</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyButtonBar">
+        <item name="android:background">@color/colorDialogBackground</item>
+    </style>
+
+</resources>
